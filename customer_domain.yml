@@ -1,0 +1,36 @@
+slots:
+  product:
+    type: text
+  router:
+    type: text
+
+
+intents:
+ - greet
+ - goodbye
+ - order_product
+
+
+entities:
+ - product
+ - router
+
+templates:
+  utter_greet:
+    - 'Hello! How can I help?'
+  utter_goodbye:
+    - 'Talk to you later.'
+    - 'Bye'
+  utter_affirm:
+    - 'That's right'
+    - 'You are correct'
+  utter_ask_product_name:
+    - 'Which product?'
+
+
+actions:
+ - utter_greet
+ - utter_goodbye
+ - utter_affirm
+ - utter_ask_product_name
+ - actions.ActionOrderProduct

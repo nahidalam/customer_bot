@@ -1,0 +1,242 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "order_product",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "router",
+            "entity": "product"
+          }
+        ],
+        "text": "i'm looking to order a router"
+      },
+      {
+        "intent": "order_product",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "router",
+            "entity": "product"
+          }
+        ],
+        "text": "I want to order a router"
+      },
+      {
+        "intent": "order_product",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "router",
+            "entity": "product"
+          }
+        ],
+        "text": "What are the types of router you have"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yep"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "order_product",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "829",
+            "entity": "router"
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "value": "router",
+            "entity": "product"
+          }
+        ],
+        "text": "show me all the 829 router"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "stop"
+      },
+      {
+        "intent": "goodbye",
+        "text": "end"
+      },
+      {
+        "intent": "affirm",
+        "text": "indeed"
+      },
+      {
+        "intent": "affirm",
+        "text": "that's right"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "great"
+      },
+      {
+        "intent": "order_product",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "829",
+            "entity": "router"
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "value": "router",
+            "entity": "product"
+          }
+        ],
+        "text": "do you have any 829 router?"
+      },
+      {
+        "intent": "order_product",
+        "entities": [
+          {
+            "start": 24,
+            "end": 27,
+            "value": "829",
+            "entity": "router"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "router",
+            "entity": "product"
+          }
+        ],
+        "text": "What is the price of an 829 router?"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a good day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "take care"
+      },
+      {
+        "intent": "order_product",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "router",
+            "entity": "product"
+          }
+        ],
+        "text": "Can I order a router?"
+      },
+      {
+        "intent": "order_product",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "829",
+            "entity": "router"
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "value": "router",
+            "entity": "product"
+          }
+        ],
+        "text": "Can I order an 829 router?"
+      },
+      {
+        "intent": "order_product",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "router",
+            "entity": "product"
+          }
+        ],
+        "text": "I would like to order a router"
+      },
+      {
+        "intent": "order_product",
+        "entities": [
+          {
+            "start": 25,
+            "end": 28,
+            "value": "829",
+            "entity": "router"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "router",
+            "entity": "product"
+          }
+        ],
+        "text": "I would like to order an 829 router"
+      },
+      {
+        "intent": "order_product",
+        "text": "I want to order a product"
+      },
+      {
+        "intent": "order_product",
+        "text": "Can I order a product"
+      },
+      {
+        "intent": "order_product",
+        "text": "How can I order a product"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
