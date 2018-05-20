@@ -1,0 +1,18 @@
+{
+  "features": [
+    "intent_greet",
+    "intent_goodbye",
+    "intent_order_product",
+    "entity_product",
+    "entity_router",
+    "slot_product_0",
+    "slot_router_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_utter_greet",
+    "prev_utter_goodbye",
+    "prev_utter_affirm",
+    "prev_utter_ask_product_name",
+    "prev_action_order_product"
+  ]
+}

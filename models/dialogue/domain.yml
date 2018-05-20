@@ -1,0 +1,41 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_goodbye
+- utter_affirm
+- utter_ask_product_name
+- action_order_product
+actions:
+- utter_greet
+- utter_goodbye
+- utter_affirm
+- utter_ask_product_name
+- actions.ActionOrderProduct
+config:
+  store_entities_as_slots: true
+entities:
+- product
+- router
+intents:
+- greet
+- goodbye
+- order_product
+slots:
+  product:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  router:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_affirm:
+  - text: Thats right
+  - text: You are correct
+  utter_ask_product_name:
+  - text: Which product?
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye
+  utter_greet:
+  - text: Hello! How can I help?
+topics: []

@@ -22,7 +22,7 @@ templates:
     - 'Talk to you later.'
     - 'Bye'
   utter_affirm:
-    - 'That's right'
+    - 'Thats right'
     - 'You are correct'
   utter_ask_product_name:
     - 'Which product?'

@@ -2,10 +2,11 @@
 Author: Nahid Alam
 Reference: https://github.com/JustinaPetr/Weatherbot_Tutorial
 Works with Rasa NLU 0.12.3
+Rasa Core version 0.9.0a3 (master)
 '''
 
 from rasa_nlu.training_data import load_data
-from rasa_nlu.config import RasaNLUModelConfig
+#from rasa_nlu.config import RasaNLUModelConfig
 from rasa_nlu.model import Trainer
 from rasa_nlu import config
 from rasa_nlu.model import Metadata, Interpreter
