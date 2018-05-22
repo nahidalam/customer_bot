@@ -30,8 +30,10 @@ $pip install -e .
 
 #### How to find rasa_core and rasa_nlu version
 
-`$python -c "import rasa_nlu; print(rasa_nlu.__version__);"`
-`$python -c "import rasa_core; print(rasa_core.__version__);"`
+```
+$python -c "import rasa_nlu; print(rasa_nlu.__version__);"
+$python -c "import rasa_core; print(rasa_core.__version__);"
+```
 
 
 ## How to do HTTP/REST
