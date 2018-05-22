@@ -47,3 +47,7 @@ def run(serve_forever=True):
     if serve_forever:
         agent.handle_channel(HttpInputChannel(5004, "/chat", input_channel))
     return agent
+
+if __name__ == '__main__':
+    utils.configure_colored_logging(loglevel="INFO")
+    run()
