@@ -240,6 +240,21 @@
             "entity": "product"
           }
         ]
+      },
+      {
+        "text": "I want to order a product",
+        "intent": "order_product",
+        "entities": []
+      },
+      {
+        "text": "Can I order a product",
+        "intent": "order_product",
+        "entities": []
+      },
+      {
+        "text": "How can I order a product",
+        "intent": "order_product",
+        "entities": []
       }
     ]
   }

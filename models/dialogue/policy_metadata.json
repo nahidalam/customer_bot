@@ -4,10 +4,16 @@
       "slots": [
         "router"
       ]
+    },
+    "utter_goodbye": {
+      "slots": []
     }
   },
-  "rasa_core": "0.8.6",
-  "max_history": 2,
+  "rasa_core": "0.9.0a6",
+  "max_histories": [
+    5,
+    5
+  ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
     "rasa_core.policies.memoization.MemoizationPolicy",
