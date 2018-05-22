@@ -32,7 +32,7 @@ class SimpleWebBot(HttpInputComponent):
             text = payload.get("message", None)
             out = CollectingOutputChannel()
             on_new_message(UserMessage(text, out, sender_id))
-            responses = [m for _, m in out.messages]
+            responses = [m.get("text") for _, m in out.messages]
             return jsonify(responses)
 
         return custom_webhook
