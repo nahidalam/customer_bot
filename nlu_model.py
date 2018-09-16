@@ -1,6 +1,5 @@
 '''
 Author: Nahid Alam
-Reference: https://github.com/JustinaPetr/Weatherbot_Tutorial
 Works with Rasa NLU 0.12.3
 Rasa Core version 0.9.0a3 (master)
 '''
