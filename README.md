@@ -1,3 +1,7 @@
+
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-black.png)](https://www.buymeacoffee.com/nahidalam)
+
+
 # Simple Chatbot using Rasa.ai
 
 ###### Documentation in progress ...
@@ -48,5 +52,3 @@ It should output
 
 `[{"recipient_id":"default","text":"Hello! How can I help?"}]`
 
-
-## Further Improvements:
